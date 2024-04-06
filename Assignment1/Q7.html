@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Question 2</title>
+  <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+<head>
+<title>Employee Registration</title>
+</head>
+<body>
+
+<h1 style="color: red;" ALIGN="CENTER">Employee Registration Form</h1>
+
+<form action="submit_employee.php" method="post">
+<table border="0" align="center" style="width:100%">
+<tr>
+<td> </td>
+<td style="font-size: 20px;"><b><input type="radio" label="title" placeholder="title" name="title" value="HTML">
+  <label for="html">Mr.</label>
+  <input type="radio" label="title" placeholder="title" name="title" value="HTML">
+  <label for="html">Mrs.</label>
+  <input type="radio" label="title" placeholder="title" name="title" value="HTML">
+  <label for="html">Ms.</label></b>
+</tr>
+
+<tr>
+<td align="center"><label for="id" style="font-size: 20px;" >First Name </label></td>
+ <td><input id="id" maxlength="50" name="name" type="text"/></td>
+</tr>
+
+<tr> 
+<td align="center"><label for="lname" style="font-size: 20px;">Last Name:</label></td>
+ <td> <input type="text" label="Last Name" placeholder="Last Name" name="lname"></tr>
+</tr>
+
+<tr> 
+<td style="font-size: 20px;" align="center"><label for="email">Mail Address 1:</label></td>
+  <td><input type="email" label="email" placeholder="email" name="email"></td>
+</tr> 
+
+<tr> 
+<td style="font-size: 20px;" align="center"><label for="email">Mail Address 2:</label></td>
+  <td><input type="email" id="email" name="email"></td>
+</tr> 
+
+<tr> 
+<td align="center"><label for="city" style="font-size: 20px;">City:</label></td>
+ <td> <input type="text" id="city" name="city"></tr>
+</tr>
+
+<tr> 
+<td style="font-size: 20px;" align="center"><label for="phone">Phone Number:</label></td>
+  <td><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="+91"></td>
+</tr>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
