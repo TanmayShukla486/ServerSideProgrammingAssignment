@@ -1,0 +1,55 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#arts_list,
+#science_list,
+#commerce_list,
+#tech_list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: -25px;
+  margin-top: 25px;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #242f40;
+  color: wheat;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.nav-item:hover {
+  background-color: #303641;
+}
+
+h1 {
+  background-color: #242f40;
+  color: wheat;
+  margin: auto;
+  margin: -15px;
+  padding: 25px;
+}
+
+h2 {
+  background-color: #cca43b;
+  margin: auto;
+  margin: -15px;
+  padding: 25px;
+}
+
+#departments {
+  background-color: #e5e5e5;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 15px;
+  height: 625px;
+}
+
+h3 {
+  padding: 10px;
+  font-size: 2em;
+}

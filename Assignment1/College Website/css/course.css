@@ -1,0 +1,44 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  background-color: #242f40;
+  color: wheat;
+  margin: auto;
+  margin: -15px;
+  padding: 25px;
+}
+
+#description {
+  background-color: #cca43b;
+  margin: -15px;
+  padding: 15px 25px;
+}
+
+#teachers {
+  background-color: #e5e5e5;
+  margin: -15px;
+  padding: 15px 25px;
+}
+
+#course_timings {
+  border-collapse: collapse;
+  border: solid 1px;
+}
+
+.table-row {
+  padding: 5px;
+  margin: 25px;
+}
+
+th {
+  padding: 10px;
+  background-color: #363636;
+  color: white;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px;
+}

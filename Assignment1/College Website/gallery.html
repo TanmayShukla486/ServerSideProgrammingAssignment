@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>College Gallery</title>
+    <style>
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>College Gallery</h1>
+    </header>
+
+    <section class="gallery">
+      <img
+        src="images/photo1.jpg"
+        alt="College Building"
+      />
+      <img
+        src="images/photo2.jpg"
+        alt="Students in Classroom"
+      />
+      <img
+        src="images/photo3.jpg"
+        alt="College Campus"
+      />
+      <img
+        src="images/photo4.jpg"
+        alt="Students Group Photo"
+      />
+      <img
+        src="images/photo5.jpg"
+        alt="Library"
+      />
+      <img
+        src="images/photo6.jpg"
+        alt="Sports Event"
+      />
+      <!-- Add more images as needed -->
+    </section>
+
+    <footer>
+      <p>&copy; 2024 College Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
