@@ -1,0 +1,46 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #8d762e;
+  background-color: #fcfcfc;
+}
+
+form {
+  border: 3px solid #8d762e;
+  border-radius: 25px;
+  height: 625px;
+}
+
+.form-group {
+  margin: 35px;
+  display: flex;
+  font-size: 1.25em;
+  justify-content: space-between;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='date'],
+input[type='tel'] {
+  width: 250px;
+  height: 25px;
+  font-size: 1.25em;
+}
+
+input[type='submit' i],
+input[type='reset' i] {
+  background-color: #8d762e;
+  color: #fcfcfc;
+  border: none;
+  width: 150px;
+  height: 45px;
+  margin: 8px;
+  border-radius: 15px;
+  font-size: 1.5em;
+}
+
+input[type='submit' i]:hover,
+input[type='reset' i]:hover {
+  background-color: #aa8927;
+}
