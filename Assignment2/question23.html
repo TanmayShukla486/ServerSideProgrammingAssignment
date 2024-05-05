@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Slideshow</title>
+    <style>
+      /* Styles for the slideshow */
+      #slideshow-container {
+        position: relative;
+        max-width: 500px;
+        margin: auto;
+      }
+      .slide {
+        display: none;
+        width: 100%;
+      }
+      .slide.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slideshow-container">
+      <img
+        class="slide active"
+        src="https://www.stockvault.net/data/2007/03/01/100489/thumb16.jpg"
+        alt="Slide 1"
+      />
+      <img
+        class="slide"
+        src="https://www.shutterstock.com/image-photo/portrait-cute-funny-raccoon-closeup-260nw-1569920464.jpg"
+        alt="Slide 2"
+      />
+      <img
+        class="slide"
+        src="https://t4.ftcdn.net/jpg/02/66/31/75/360_F_266317554_kr7DPOoM5Uty0YCeFU9nDZTt4a2LeMJF.jpg"
+        alt="Slide 3"
+      />
+    </div>
+
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+
+    <script>
+      let currentSlideIndex = 0;
+      const slides = document.querySelectorAll('.slide');
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+      }
+
+      function nextSlide() {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex);
+      }
+
+      function prevSlide() {
+        currentSlideIndex =
+          (currentSlideIndex - 1 + slides.length) % slides.length;
+        showSlide(currentSlideIndex);
+      }
+    </script>
+  </body>
+</html>
