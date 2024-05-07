@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="./resume.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio</h1>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about">
+        <h2 id="about_me">About Me</h2>
+        <p id="about_me_section">
+          Born and raised in a humble family, I've cultivated a passion for
+          problem-solving since childhood. With an innate ability to grasp new
+          concepts swiftly, I embark on learning journeys with an insatiable
+          curiosity. Once I set my mind on a challenge, I'm driven by an
+          unwavering determination until I unravel its solution. Even in my
+          dreams, I find myself pondering over the intricate puzzles awaiting
+          resolution. Android development has captured my interest, and I've
+          eagerly delved into mastering its intricacies, channeling my
+          relentless drive into crafting innovative solutions within the digital
+          realm.
+        </p>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <section id="project-list">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <h3>Notes App</h3>
+              <p>
+                A simple Notes App that allows you to take notes and attach
+                multimedia such as photos and videos. All data is securely
+                stored in local Room storage.
+              </p>
+              <a href="https://github.com/TanmayShukla486/NotesApplication"
+                >Github Link</a
+              >
+            </li>
+            <li>
+              <h3>Book App</h3>
+              <p>
+                A Book App that fetches a list of books from the Google Books
+                API. You can search for books based on parameters such as name,
+                publisher, author, and ISBN.
+              </p>
+              <a href="https://github.com/TanmayShukla486/BookApp"
+                >Github Link</a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <div id="contact_details">
+          <p>Email: tanmay.shukla629@gmail.com</p>
+          <p>Mobile Number: 6394534212</p>
+        </div>
+        <div id="contact_form">
+          <h1>Contact Me</h1>
+          <form
+            action="#"
+            method="post"
+          >
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject:</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="50"
+                required
+              ></textarea>
+            </div>
+
+            <input
+              type="submit"
+              value="Submit"
+            />
+            <input
+              type="reset"
+              value="Reset"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
